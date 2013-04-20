@@ -1,0 +1,29 @@
+{
+  "name": "limit-bench",
+  "version": "0.0.0",
+  "description": "Benchmark with time limits",
+  "main": "bench.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/limit-bench.git"
+  },
+  "keywords": [
+    "benchmark",
+    "time",
+    "limit"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "01aa579516d29b1c3df5f530f1f1da46e8d1a63b"
+}
