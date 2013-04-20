@@ -28,5 +28,9 @@ Benchmarks task by running it for about `time_limit` milliseconds.
 
 **Returns** The average time per task in milliseconds
 
+### Why use this benchmark tool instead of one of the million others?
+
+Because it lets you put time limits on the tasks.  This means that you can avoid spinning forever if you are comparing a slow implementation to some relatively much faster implementation.
+
 # Credits
 (c) 2013 Mikola Lysenko. MIT License
